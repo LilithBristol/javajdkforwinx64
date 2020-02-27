@@ -75,9 +75,10 @@ Azul编译的OpenJDK版本
 提供 8,11 两个长期支持版 和最新版(现在是13)
 但是国内下载速度很慢
 
+提供链接
 [下载 AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)
 
-本仓库提供
+本仓库提供文件
 
 
 
