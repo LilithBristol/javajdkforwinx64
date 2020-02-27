@@ -1,15 +1,21 @@
 # JDK 下载分享
 
-由于甲骨文官网下载需要账号 所以收集了一些版本的JDK
+由于甲骨文官网下载需要账号 所以收集了一些版本的Windows环境的JDK安装包
 
-如果下载Oracle JDK 那么你需要同意 Oracle [JDK使用协议][1]
-
-国内下载JDK 不需要特定版本号 也可以使用 
-
-[华为云JDK镜像][2] 高速下载Oracle JDK
+毕竟Linux都自带软件仓库 MacOS有HomeBrew
 
 
 # Oracle JDK
+
+如果下载Oracle JDK 那么你需要同意 Oracle [JDK使用协议][1]
+
+[官方下载地址](https://www.oracle.com/java/technologies/javase-downloads.html)
+
+国内下载JDK 如果有你需要的版本 也可以使用 
+
+[华为云JDK镜像][2] 高速下载Oracle JDK
+
+以下是本仓库提供的JDK
 
 [JDK 1.5.22](https://github.com/LilithBristol/javajdkforwinx64/releases/tag/JDK1.5.22)
 
@@ -48,10 +54,24 @@
 # Liberica JDK
 
 BellSoft提供的OpenJDK版本 特点是包含了JavaFX内容
-国内直连下载速度很快 所以提供链接
+Windows 安装包自动配置环境变量，并且自动关联 jar 打开方式
+国内直连下载速度很快(AdoptOpenJDK出来挨打) 所以提供链接
 
 [下载Liberica JDK](https://bell-sw.com/)
 
+# Zulu JDK
+
+微软Azure编译的OpenJDK版本
+
+国内下载速度尚可 所以同样提供链接
+
+# Adopt OpenJDK
+
+完全社区提供的OpenJDK版本 
+但是国内下载速度很慢
+
+
+[下载Zulu JDK](https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk#)
 
 [1]:https://www-sites.oracle.com/downloads/licenses/javase-license1.html#licenseContent
 [2]:https://repo.huaweicloud.com/java/jdk/
