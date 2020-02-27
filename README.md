@@ -1,6 +1,6 @@
 # JDK 下载分享
 
-由于甲骨文官网下载需要账号 所以收集了一些版本的Windows环境的JDK安装包
+由于甲骨文官网下载需要账号 所以收集了一些版本的**Windows x64环境**的JDK安装包
 
 毕竟Linux都自带软件仓库 MacOS有HomeBrew
 
