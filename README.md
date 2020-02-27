@@ -45,6 +45,13 @@
 
 [JDK 13.0.2](https://github.com/LilithBristol/javajdkforwinx64/releases/tag/JDK13.0.2)
 
+# Liberica JDK
+
+BellSoft提供的OpenJDK版本 特点是包含了JavaFX内容
+国内直连下载速度很快 所以提供链接
+
+[下载Liberica JDK](https://bell-sw.com/)
+
 
 [1]:https://www-sites.oracle.com/downloads/licenses/javase-license1.html#licenseContent
 [2]:https://repo.huaweicloud.com/java/jdk/
