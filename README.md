@@ -73,12 +73,11 @@ Azul编译的OpenJDK版本
 
 完全社区构建的OpenJDK版本 包含J9和HotSpot两种JVM
 提供 8,11 两个长期支持版 和最新版(现在是13)
-但是国内下载速度很慢
+但是国内下载速度很慢（因为AdoptOpenJDK实际上使用GitHub来分发）
 
 提供链接
 [下载 AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)
 
-本仓库提供文件
 
 
 
