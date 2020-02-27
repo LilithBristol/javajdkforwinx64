@@ -55,23 +55,32 @@
 
 BellSoft提供的OpenJDK版本 特点是包含了JavaFX内容
 Windows 安装包自动配置环境变量，并且自动关联 jar 打开方式
+可以说对新手最优化的JDK版本
+
 国内直连下载速度很快(AdoptOpenJDK出来挨打) 所以提供链接
 
 [下载Liberica JDK](https://bell-sw.com/)
 
 # Zulu JDK
 
-微软Azure编译的OpenJDK版本
-
+Azul编译的OpenJDK版本
 国内下载速度尚可 所以同样提供链接
+构建版本还是很全的 7,18,11,13都有 甚至提供了 14,15的早期预览版
+
+[下载Zulu JDK](https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk#)
 
 # Adopt OpenJDK
 
-完全社区提供的OpenJDK版本 
+完全社区构建的OpenJDK版本 包含J9和HotSpot两种JVM
+提供 8,11 两个长期支持版 和最新版(现在是13)
 但是国内下载速度很慢
 
+[下载 AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)
 
-[下载Zulu JDK](https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk#)
+本仓库提供
+
+
+
 
 [1]:https://www-sites.oracle.com/downloads/licenses/javase-license1.html#licenseContent
 [2]:https://repo.huaweicloud.com/java/jdk/
