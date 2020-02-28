@@ -65,7 +65,7 @@ Windows 安装包自动配置环境变量，并且自动关联 jar 打开方式
 
 Azul编译的OpenJDK版本
 国内下载速度尚可 所以同样提供链接
-构建版本还是很全的 7,18,11,13都有 甚至提供了 14,15的早期预览版
+构建版本还是很全的 7,8,11,13都有 甚至提供了 14,15的早期预览版
 
 [下载Zulu JDK](https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk#)
 
