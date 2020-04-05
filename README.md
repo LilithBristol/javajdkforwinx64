@@ -79,7 +79,7 @@ Azul编译的OpenJDK版本
 [下载 AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)
 
 
-#Amazon Corretto JDK
+# Amazon Corretto JDK
 
 亚马逊提供的OpenJDK编译版本 目前只提供了 8,11
 得益于AWS支持 下载速度超快
