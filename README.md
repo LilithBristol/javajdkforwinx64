@@ -90,7 +90,7 @@ Azul编译的OpenJDK版本
 
 [Corretto JDK8](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
 
-[Corretto JDK8](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
+[Corretto JDK11](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
 
 
 [1]:https://www-sites.oracle.com/downloads/licenses/javase-license1.html#licenseContent
