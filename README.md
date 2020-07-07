@@ -86,7 +86,9 @@ Azul编译的OpenJDK版本
 而且提供了windows,linux,mac多系统的支持
 
 提供链接
-[下载 CorrettoJDK](https://docs.aws.amazon.com/corretto/index.html)
+[目录 CorrettoJDK](https://docs.aws.amazon.com/corretto/index.html)
+[Corretto JDK8](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
+[Corretto JDK8](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
 
 
 [1]:https://www-sites.oracle.com/downloads/licenses/javase-license1.html#licenseContent
