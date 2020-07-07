@@ -87,7 +87,9 @@ Azul编译的OpenJDK版本
 
 提供链接
 [目录 CorrettoJDK](https://docs.aws.amazon.com/corretto/index.html)
+
 [Corretto JDK8](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
+
 [Corretto JDK8](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
 
 
