@@ -78,6 +78,10 @@ Azul编译的OpenJDK版本
 提供链接
 [下载 AdoptOpenJDK](https://adoptopenjdk.net/?variant=openjdk8&jvmVariant=hotspot)
 
+20.7.21 清华Tuna镜像已经支持AdoptOpenJDK分发 国内直连可使用此镜像 提供的架构、系统支持非常丰富
+包括 linux,mac,win;arch64,arm,ppc,x86
+[清华Tuna AdoptOpenJDK镜像](https://mirrors.tuna.tsinghua.edu.cn/AdoptOpenJDK/)
+
 
 # Amazon Corretto JDK
 
