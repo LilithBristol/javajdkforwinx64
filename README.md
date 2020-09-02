@@ -4,6 +4,7 @@
 
 毕竟Linux都自带软件仓库 MacOS有HomeBrew
 
+**新手建议下载 Liberica JDK**
 
 # Oracle JDK
 
@@ -53,9 +54,22 @@
 
 # Liberica JDK
 
-BellSoft提供的OpenJDK版本 特点是包含了JavaFX内容
-Windows 安装包自动配置环境变量，并且自动关联 jar 打开方式
-可以说对新手最优化的JDK版本
+BellSoft提供的OpenJDK版本 
+相比于其他OpenJDK分发渠道
+Liberica JDK提供了很多便利的特性
+- 三种规模的打包版本
+  标准JavaSE的Standard标准版
+  完整包含JavaFX的full全量版
+  精简JDK的Lite版
+- 多种便利的分发渠道
+  包含Liberica JDK的Docker基础镜像
+  Linux仓库
+  支持多种包管理器Swoop,Brew,甚至还有刚推出的winget！
+  RestAPI查询，更新，下载服务支持
+- Windows 安装包自动配置环境变量，并且自动关联jar包
+
+可以说是对新手最友好的JDK版本
+建议现在的Javaer都可以直接使用Liberica JDK
 
 国内直连下载速度很快(AdoptOpenJDK出来挨打) 所以提供链接
 
