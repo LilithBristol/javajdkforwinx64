@@ -97,6 +97,10 @@ Azul编译的OpenJDK版本
 
 [Corretto JDK11](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
 
+# ReadHat JDK
+红帽维护的OpenJDK分发版 仅有windows版 而且还需要登录才能下载
+提供给红帽爱好者
+[ReadHat JDK](https://developers.redhat.com/products/openjdk/download)
 
 [1]:https://www-sites.oracle.com/downloads/licenses/javase-license1.html#licenseContent
 [2]:https://repo.huaweicloud.com/java/jdk/
