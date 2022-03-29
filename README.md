@@ -4,12 +4,16 @@
 
 毕竟Linux都自带软件仓库 MacOS有HomeBrew
 
+*如果使用IDE 如Intellij Idea开发Java应用程序 那么请在Idea里下载
+无需在windows上安装JDK和配置环境变量*
+
 **新手建议下载 Liberica JDK**
 
-#使用windows应用包管理器 winget 安装jdk
+# 使用windows应用包管理器 winget 安装jdk（首选）
 
 在win10 21H2 win11下可以通过windows应用包管理器 winget来安装jdk
-无需再去各地址下载JDK了
+
+**使用winget后 基本无需再去各地址下载JDK了**
 
 搜索JDK
 ```shell
@@ -18,7 +22,7 @@ winget search jdk
 ![image](https://user-images.githubusercontent.com/20179864/160649271-31dba968-ef84-4300-a4fc-936b6331c754.png)
 
 
-然后使用 winget install [ID] 命令安装对应ID的JDK即可
+然后使用 `winget install [ID]` 命令安装对应ID的JDK即可
 
 # Oracle JDK
 
@@ -94,9 +98,12 @@ Liberica JDK提供了很多便利的特性
 Azul编译的OpenJDK版本
 国内下载速度尚可 所以同样提供链接
 相比其他OpenJDK 拥有很全的构建版本
-覆盖6,,7,8,11,13,14都有 甚至提供了15,16的早期预览版  
+覆盖从Java 6开始到最新的Java18早期预览版  
 **如果需要JDK6，JDK7的OpenJDK 可以选择ZuluJDK**
 毕竟大部分OpenJDK提供者并没有6,7版本
+
+*但是Azul引以为傲的C4GC并未加入这个免费分发的OpenJDK版本
+如果有需要超低暂停的JDK 看看RedHat JDK吧*
 
 [下载Zulu JDK](https://www.azul.com/downloads/zulu-community/?&architecture=x86-64-bit&package=jdk#)
 
@@ -124,15 +131,15 @@ Azul编译的OpenJDK版本
 提供链接
 [目录 CorrettoJDK](https://docs.aws.amazon.com/corretto/index.html)
 
-[Corretto JDK8](https://docs.aws.amazon.com/corretto/latest/corretto-8-ug/downloads-list.html)
-
-[Corretto JDK11](https://docs.aws.amazon.com/corretto/latest/corretto-11-ug/downloads-list.html)
-
 # ReadHat JDK
 红帽维护的OpenJDK分发版 仅有windows版 而且还需要登录才能下载  
 提供给红帽爱好者  
+*红帽维护的OpenJDK在windows平台上支持了ShenandoahGC-新型亚秒级暂停的GC*
+(可以使用winget安装 跳过红帽登录)
 
 [ReadHat JDK](https://developers.redhat.com/products/openjdk/download)
 
 [1]:https://www-sites.oracle.com/downloads/licenses/javase-license1.html#licenseContent
 [2]:https://repo.huaweicloud.com/java/jdk/
+
+
