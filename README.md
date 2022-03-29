@@ -6,6 +6,20 @@
 
 **新手建议下载 Liberica JDK**
 
+#使用windows应用包管理器 winget 安装jdk
+
+在win10 21H2 win11下可以通过windows应用包管理器 winget来安装jdk
+无需再去各地址下载JDK了
+
+搜索JDK
+```shell
+winget search jdk
+```
+![image](https://user-images.githubusercontent.com/20179864/160649271-31dba968-ef84-4300-a4fc-936b6331c754.png)
+
+
+然后使用 winget install [ID] 命令安装对应ID的JDK即可
+
 # Oracle JDK
 
 如果下载Oracle JDK 那么你需要同意 Oracle [JDK使用协议][1]
